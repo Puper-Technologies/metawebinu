@@ -66,7 +66,7 @@ const Deployement = (): JSX.Element => {
 
         <button
           type="button"
-          className="inline-block px-12 py-3 bg-violet-500 text-white font-medium text-m leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+          className="inline-block px-12 py-3 bg-violet-500 text-white font-medium text-m leading-tight uppercase rounded shadow-md hover:bg-violet-600 hover:shadow-lg focus:bg-violet-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
         >
           white paper
         </button>
