@@ -7,6 +7,8 @@ import Activity from "../components/Activity";
 import Deployement from "../components/DeployementActivity";
 import OurMainRoad from "../components/OurMainRoad";
 
+import Team from '../components/Team'
+import Token from '../components/Token'
 const Home = ()=>{
     return (
         <div>
@@ -17,6 +19,10 @@ const Home = ()=>{
             <About/>
             <Deployement />
             <OurMainRoad />
+           
+            <Token/>
+            {/* <Activity/> */}
+            <Team/>
             </main>
             
             <Contact/>

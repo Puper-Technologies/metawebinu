@@ -14,11 +14,12 @@ export default (): JSX.Element =>{
     
 
       return (
-          <div className="relative ">
-                <Particles className=""
+          <div className="flex flex-col justify-center items-center">
+                <Particles className="w-full"
             id="tsparticles"
-            height = "400px"
+            height = "100vh"
             width="100%"
+
             options={{
                 background: {
                 color: {
@@ -99,6 +100,19 @@ export default (): JSX.Element =>{
                 detectRetina: true,
             }}
             />
+                <div className="absolute flex flex-col items-center px-[10%] text-white space-y-8">
+                    <h1 className=" text-white text-4xl font-bold">Build a new kind of Decentralized</h1>    
+                    <p className="text-lg ">
+                        {/* banner body */}
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    </p>
+                {/* buttons */}
+                    <div className="flex flex-row space-x-4">
+                        <button className="py-4 px-8  bg-sky-700 shadow-sm rounded-md  active:scale-95"> Join Us </button>
+                        <button className="py-4 px-8 shadow-sm rounded-md  bg-violet-700 active:scale-95">VIEW WHITE PAPER</button> 
+                    </div>
+            </div>
+           
           </div>
         
       );
