@@ -1,6 +1,6 @@
 const OurMainRoad = (): JSX.Element => {
   return (
-    <div className="container px-12 mt-20 mb-20 bg-gray-100 py-8">
+    <div className="container px-12 bg-gray-100 py-8">
       <div className="text-left text-gray-800 mb-8">
         <h2 className="text-4xl">Our Main Road Map</h2>
         <br />

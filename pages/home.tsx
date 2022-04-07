@@ -12,7 +12,7 @@ const Home = ()=>{
         <div>
             <Header/>
             <Banner/>
-            <main className="h-[100vh] ">
+            <main>
            
             <About/>
             <Deployement />
