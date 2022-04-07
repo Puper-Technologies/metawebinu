@@ -4,7 +4,7 @@ const Activity = () =>{
     <section className="" id="activity">
           <div className="container flex flex-col items-center">
             <div className="sm-intro">
-              <h2>Development Activity</h2>
+              <h2 className="text-2xl text-">Development Activity</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh dolor, efficitur eget pharetra ac, cursus sed sapien. Cras posuere ligula ut blandit varius. </p>
             </div>
             <ul className="row margin-top-50 margin-bottom-50">

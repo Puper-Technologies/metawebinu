@@ -4,16 +4,19 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import About from "../components/About";
 import Activity from "../components/Activity";
-
+import Team from '../components/Team'
+import Token from '../components/Token'
 const Home = ()=>{
     return (
         <div>
             <Header/>
             <Banner/>
-            <main className="h-[100vh] ">
+            <main className="">
            
             <About/>
-            <Activity/>
+            <Token/>
+            {/* <Activity/> */}
+            <Team/>
             </main>
             
             <Contact/>
