@@ -10,10 +10,10 @@ export default function Team() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh dolor, efficitur eget pharetra ac, cursus sed sapien. Cras posuere ligula ut blandit varius.
                     </p>
                 {/* images */}
-                    <div className="flex flex-col md:flex-row space-x-4">
+                    <div className="flex flex-col items-center space-y-8 md:space-y-0 md:flex-row md:space-x-4">
                         <div className='relative h-40 w-40 rounded-full'>
                             <Image 
-                                src="https://demos.webicode.com/html/ico-chain/html/images/team-img-4.jpg"
+                                src="/Edward.jpg"
                                 objectFit='cover'
                                 layout='fill'
                                 className='rounded-full'
@@ -21,7 +21,7 @@ export default function Team() {
                         </div>
                         <div className='relative h-40 w-40 rounded-full'>
                             <Image 
-                                src="https://demos.webicode.com/html/ico-chain/html/images/team-img-3.jpg"
+                                src="/Jonathan.jpg"
                                 objectFit='cover'
                                 layout='fill'
                                 className='rounded-full'
@@ -29,7 +29,24 @@ export default function Team() {
                         </div>
                         <div className='relative h-40 w-40 rounded-full'>
                             <Image 
-                                src="https://demos.webicode.com/html/ico-chain/html/images/team-img-2.jpg"
+                                src="/YCLau.jpg"
+                                objectFit='cover'
+                                layout='fill'
+                                className='rounded-full'
+                            />
+                        </div>
+                        <div className='relative h-40 w-40 rounded-full'>
+                            <Image 
+                                src="/MikeChiam.jpg"
+                                objectFit='cover'
+                                layout='fill'
+                                className='rounded-full'
+                            />
+                        </div>
+
+                        <div className='relative h-40 w-40 rounded-full'>
+                            <Image 
+                                src="/Richard.jpg"
                                 objectFit='cover'
                                 layout='fill'
                                 className='rounded-full'

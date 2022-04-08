@@ -3,15 +3,27 @@ import {Doughnut} from 'react-chartjs-2';
 import {Chart, ArcElement} from 'chart.js'
 Chart.register(ArcElement);
 
-
+// 50% token Burn
+// 20% liquidity
+// 15% token for sale
+// 5% private & presale
+// 5% team and founder
+// 2% 
+// 2% charity
+// 1% airdrop
 const data = {
     labels: [
-        'BitCoin',
-        'Ethereum',
-        'DodgeCoin'
+        'token Burn',
+        'liquidity',
+        'token for sale',
+        'private & presale',
+        'team and founder',
+        'marketing',
+        'charity',
+        'airdrop'
     ],
 datasets: [{
-  data: [300, 500, 100],
+  data: [50, 20, 15, 5, 5, 2, 2, 1],
   
 
   backgroundColor: [
@@ -51,16 +63,19 @@ scales: {
 
 
 
-export default () => (
-<div className=''>
-  {/* <h2>Doughnut Example</h2> */}
-  <Doughnut className='text-white'
-     data={data}
-     width={400}
-     height={400}
-     
-  />
+export default function DoughnutComp () {
 
-
-</div>
-);
+    return (
+        <div className=''>
+          {/* <h2>Doughnut Example</h2> */}
+          <Doughnut className='text-white'
+             data={data}
+             width={400}
+             height={400}
+             
+          />
+        
+        
+        </div>
+        );
+} 

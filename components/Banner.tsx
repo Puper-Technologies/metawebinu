@@ -1,10 +1,10 @@
 import Particles from "react-tsparticles"
 
 
-export default (): JSX.Element =>{
+export default function Banner (): JSX.Element{
 
     const particlesInit = async (main: any) => {
-        console.log(main);
+        
     
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
         // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
@@ -101,11 +101,10 @@ export default (): JSX.Element =>{
             }}
             />
                 <div className="absolute flex flex-col items-center px-[5%] lg:px-[10%] text-white space-y-8">
-                    <h1 className=" text-white  text-2xl md:text-3l lg:text-4xl font-bold">Decentralized Community driven MEMES NFT & Metaverse</h1>    
+                    <h1 className=" text-white  text-2xl md:text-3l lg:text-4xl font-bold">Meta Web Inu is a decentralized Community driven memes NFT token!!</h1>    
                     <p className="text-sm sm:text-base md:text-lg ">
                         {/* banner body */}
-                        Meta Web Inu is a decentralized Community driven memes NFT token!!
-Our aim is to make the record by growing token price to 10000 X in 2022
+                        Our aim is to make the record by growing token price to 10000 X in 2022
                     </p>
                 {/* buttons */}
                     <div className="flex flex-row space-x-4">

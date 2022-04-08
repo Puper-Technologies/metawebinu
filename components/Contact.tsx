@@ -21,7 +21,7 @@ const Contact = () =>{
             {/* right */}
             
             <div className="flex space-x-2 flex-1 ">
-                <input className="px-4  py-2 text-sm shadow-md rounded-md w-[340px]" placeholder="Enter your Email address"/>
+                <input className="px-4  py-2 text-sm shadow-md rounded-md w-[240px]" placeholder="Enter your Email address"/>
                 <button className="px-8 py-2 text-white bg-[#0b0c22]  hover:bg-blue-800 transition duration-150 active:scale-95 rounded-lg shadow-lg" >SEND</button>
             </div>
         </div>

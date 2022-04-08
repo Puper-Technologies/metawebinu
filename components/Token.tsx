@@ -2,15 +2,15 @@ import Doughnut from "./Doughnut";
 
 function Token() {
   return (
-    <section className="container bg-[#0b0c22] py-16 sm:p-5">
-      <div className=" flex flex-col md:flex-row justify-center px-[10%] py-4 text-white">
+    <section className=" bg-[#0b0c22] w-full py-16 sm:p-5">
+      <div className=" flex flex-col space-y-8 md:space-y-0 md:flex-row justify-center px-[10%] py-4 text-white">
         {/* left */}
         <div>
           <h1 className="text-4xl">
-            Total Distribution Section <br /> End <b>350/350 </b>
+           Token Allocation <br />  
           </h1>
-            <p> ICO Crypto token will be released on the basis of Ethereum and Bitocin</p>
-          platform.
+            <p> Crypto token will be released on the basis of our Token Allocation</p>
+          
           {/* card */}
           <div className="block p-6 rounded-lg shadow-lg bg-gray-800 shadown-md max-w-md mt-5 space-y-4">
             <h5 className=" text-white text-xl leading-tight font-medium mb-2">
