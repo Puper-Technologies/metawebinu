@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Deployement = (): JSX.Element => {
   return (
     <div className="container  px-12 w-full mb-20 mt-20">
-      <div className="text-center text-gray-800 mb-8">
+      <div className="text-center text-gray-800 mb-8 space-x-2">
         <h2 className="text-4xl">Development Activity</h2>
         <br />
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh
