@@ -2,7 +2,7 @@ import Doughnut from "./Doughnut";
 
 function Token() {
   return (
-    <section className=" bg-[#0b0c22] w-full py-16 sm:p-5">
+    <section className=" bg-[#0b0c22] w-full py-16 sm:p-5" id='token'>
       <div className=" flex flex-col space-y-8 md:space-y-0 md:flex-row justify-center px-[10%] py-4 text-white">
         {/* left */}
         <div>

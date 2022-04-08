@@ -3,7 +3,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 
 const Contact = () =>{
 
-    return <section className="relative h-80 w-full flex  justify-center items-center">
+    return <section className="relative h-80 w-full flex  justify-center items-center" id='contact'>
         <Image className="brightness-50" src={'https://demos.webicode.com/html/ico-chain/html/images/com-bg.jpg'}
             layout='fill'
             objectFit='cover'

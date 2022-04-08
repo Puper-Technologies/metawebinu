@@ -14,7 +14,7 @@ export default function Banner (): JSX.Element{
     
 
       return (
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center" id='home'>
                 <Particles className="w-full"
             id="tsparticles"
             height = "100vh"

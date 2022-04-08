@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 
 const About = ()=>{
-    return <section className="bg-white ">
+    return <section className="bg-white " id='about'>
         <div className="flex flex-col px-6 md:px-[5%] md:grid md:grid-cols-2 sm:p-5  lg:p-[10%] ">
             {/* left */}
             <div className='flex flex-col justify-center items-start space-y-4'>
@@ -26,6 +26,7 @@ inspired by the success of meme coin Shiba Inu & NFT coin Decentraland(MANA), fr
                  layout='fill'
                  objectFit='contain'
                  src="/About.png"
+                 className='z-0'
                 />
             </div>
         </div>
