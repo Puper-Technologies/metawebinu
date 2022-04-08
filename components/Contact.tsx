@@ -9,7 +9,7 @@ const Contact = () =>{
             objectFit='cover'
             onDragStart={(e)=>e.preventDefault()}
         />
-        <div className='absolute z-10 flex justify-center items-center  flex-col space-y-2 sm:space-y-4 md:flex-row md:space-x-8'>
+        <div className='absolute z-10 flex justify-center items-center  flex-col space-y-8 sm:space-y-16 md:space-y-0 md:flex-row md:space-x-8'>
             {/* left */}
             <div className="">
                 <h1 className="text-4xl text-white font-weight">Join our community</h1>
@@ -21,8 +21,8 @@ const Contact = () =>{
             {/* right */}
             
             <div className="flex space-x-2 flex-1 ">
-                <input className="px-2 py-2 text-sm shadow-md rounded-md w-[240px]" placeholder="Enter your Email address"/>
-                <button className="p-2 text-white bg-[#0b0c22] rounded-lg shadow-lg" >SEND</button>
+                <input className="px-4  py-2 text-sm shadow-md rounded-md w-[340px]" placeholder="Enter your Email address"/>
+                <button className="px-8 py-2 text-white bg-[#0b0c22]  hover:bg-blue-800 transition duration-150 active:scale-95 rounded-lg shadow-lg" >SEND</button>
             </div>
         </div>
     </section>

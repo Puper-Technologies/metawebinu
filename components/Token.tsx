@@ -1,8 +1,6 @@
 import Doughnut from "./Doughnut";
-// import { reactDonutChartBackgroundColor, reactDonutChartdata, reactDonutChartHandleClick, reactDonutChartInnerRadius, reactDonutChartOnMouseEnter, reactDonutChartSelectedOffset, reactDonutChartStrokeColor } from "./Donut.mjs";
 
 function Token() {
-    console.log(reactDonutChartBackgroundColor)
   return (
     <section className="container bg-[#0b0c22] py-16">
       <div className=" flex justify-center px-[10%] py-4 text-white">
@@ -68,49 +66,7 @@ function Token() {
 }
 
 
-export const reactDonutChartdata = [
-    {
-      label: "NDC",
-      value: 25,
-      color: "#00E396"
-    },
-    {
-      label: "RDC",
-      value: 65,
-      color: "#FEB019"
-    },
-    {
-      label: "STOCKIST",
-      value: 100,
-      color: "#FF4560"
-    },
-    {
-      label: "HOSPITAL",
-      value: 15,
-      color: "#775DD0"
-    }
-  ];
-  export const reactDonutChartBackgroundColor = [
-    "#00E396",
-    "#FEB019",
-    "#FF4560",
-    "#775DD0"
-  ];
-  export const reactDonutChartInnerRadius = 0.5;
-  export const reactDonutChartSelectedOffset = 0.04;
-//   export const reactDonutChartHandleClick = (item:any, toggled: any) => {
-//     if (toggled) {
-//       console.log(item);
-//     }
-//   };
-  
-  
-  export let reactDonutChartStrokeColor = "#FFFFFF";
-//   export const reactDonutChartOnMouseEnter = (item) => {
-//     let color = reactDonutChartdata.find((q)=> q.label === item.label).color;
-//     reactDonutChartStrokeColor = color;
-//   };
-  
+
   
 
 export default Token;
