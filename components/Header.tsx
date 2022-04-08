@@ -30,7 +30,7 @@ const Header = (): JSX.Element =>{
 
             <div className="hidden md:flex flex-row flex-1 justify-center text-lg font-semibold text-white items-center">
                 {/* Header items */}
-                {navLink.map(({label,href})=><a href={`#${href}`} className="mx-3 text-sm sm:text-lg md:text-base cursor-pointer">{label}</a>)}
+                {navLink.map(({label,href})=><a key={href} href={`#${href}`} className="mx-3 text-sm sm:text-lg md:text-base cursor-pointer">{label}</a>)}
                 
                 
             </div>

@@ -34,7 +34,7 @@ export default function Navigation(props: any) {
         </div>
         
         <div className={`flex flex-col w-[240px] md:w-[350px] h-[100vh] bg-[#0b0c22] fixed  z-50   ${showNav?"scale-up-hor-left":" scale-out-hor-left"}`}>
-            {link.map(({label, href})=><a  href={'#'+href} className="text-white text-xl text-semibold px-8 py-4 text-center cursor-pointer hover:bg-black hover:border-t-indigo-900">{label}</a>)}
+            {link.map(({label, href})=><a key={href} href={'#'+href} className="text-white text-xl text-semibold px-8 py-4 text-center cursor-pointer hover:bg-black hover:border-t-indigo-900">{label}</a>)}
             
         </div>
     </div>}
