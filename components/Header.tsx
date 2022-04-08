@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = (): JSX.Element =>{
     return (
-        <div className="flex flex-row w-full top-0 sticky text-sky-50 bg-[#0b0c22] py-4 px-2 z-50 shadow-md w-[100vw] ">
+        <div className="hidden md:flex  flex-row w-full top-0 sticky text-sky-50 bg-[#0b0c22] py-4 px-2 z-50 shadow-md">
             <div className="flex relative flex-row justify-center  items-center">
                 {/* logo */}
                <img 
@@ -21,6 +21,7 @@ const Header = (): JSX.Element =>{
                 <Link href={'#team'} scroll={true}><a className="mx-3 cursor-pointer" >TEAM </a></Link>
                 
                 <a className="mx-3 cursor-pointer">ROADMAP </a>
+                <a className="mx-3 cursor-pointer">CONTACTS </a>
             </div>
         </div>
     )

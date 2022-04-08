@@ -28,7 +28,7 @@ export default (): JSX.Element =>{
                 },
 
                 fullScreen: false,
-                fpsLimit: 120,
+                fpsLimit: 60,
                 interactivity: {
                 events: {
                     onClick: {
@@ -53,7 +53,7 @@ export default (): JSX.Element =>{
                     },
                     repulse: {
                     distance: 200,
-                    duration: 0.4,
+                    // duration: 0.4,
                     },
                 },
                 },
@@ -76,7 +76,7 @@ export default (): JSX.Element =>{
                     enable: true,
                     outMode: "bounce",
                     random: false,
-                    speed: 3,
+                    speed: 2,
                     straight: false,
                 },
                 number: {
@@ -100,16 +100,17 @@ export default (): JSX.Element =>{
                 detectRetina: true,
             }}
             />
-                <div className="absolute flex flex-col items-center px-[10%] text-white space-y-8">
-                    <h1 className=" text-white text-4xl font-bold">Build a new kind of Decentralized</h1>    
-                    <p className="text-lg ">
+                <div className="absolute flex flex-col items-center px-[5%] lg:px-[10%] text-white space-y-8">
+                    <h1 className=" text-white  text-2xl md:text-3l lg:text-4xl font-bold">Decentralized Community driven MEMES NFT & Metaverse</h1>    
+                    <p className="text-sm sm:text-base md:text-lg ">
                         {/* banner body */}
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                        Meta Web Inu is a decentralized Community driven memes NFT token!!
+Our aim is to make the record by growing token price to 10000 X in 2022
                     </p>
                 {/* buttons */}
                     <div className="flex flex-row space-x-4">
-                        <button className="py-4 px-8  bg-sky-700 shadow-sm rounded-md  active:scale-95"> Join Us </button>
-                        <button className="py-4 px-8 shadow-sm rounded-md  bg-violet-700 active:scale-95">VIEW WHITE PAPER</button> 
+                        <button className="py-1 md:py-4 px-4 sm:px-6  md:px-8 text-sm md:text-base flex-nowrap  bg-sky-700 shadow-sm rounded-md  active:scale-95"> Join Us </button>
+                        <button className="py-1 sm:pd-2 md:py-4 px-4 sm:px-6  md:px-8 text-sm md:text-base shadow-sm rounded-md  bg-violet-700 active:scale-95">VIEW WHITE PAPER</button> 
                     </div>
             </div>
            

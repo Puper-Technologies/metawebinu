@@ -4,6 +4,9 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import About from "../components/About";
 import Activity from "../components/Activity";
+import Deployement from "../components/DeployementActivity";
+import OurMainRoad from "../components/OurMainRoad";
+
 import Team from '../components/Team'
 import Token from '../components/Token'
 const Home = ()=>{
@@ -13,10 +16,11 @@ const Home = ()=>{
             <Banner/>
             <main className="">
            
-            <About/>
-            <Token/>
-            {/* <Activity/> */}
-            <Team/>
+                <About/>
+                <Deployement />
+                <OurMainRoad />
+                <Token/>
+                <Team/>
             </main>
             
             <Contact/>
