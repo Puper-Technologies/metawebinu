@@ -7,7 +7,7 @@ const Footer = () =>{
     return <footer className = "bg-[#0b0c22] ">
       <div className="">
         
-          <div className="parthner flex flex-col py-4 px-[10%] space-y-4">
+          <div className="parthner flex flex-col py-4 px-[10%] space-y-4 sm:justify-center sm:items-center">
             <h6 className="text-white font-semibold">Partnered with Innovative Globally</h6>
             <ul className="flex flex-col  md:flex-row ">
                 <li><a href="#."><img src="https://demos.webicode.com/html/ico-chain/html/images/c-mg-1.png" alt=""/></a></li>

@@ -4,8 +4,8 @@ import Doughnut from "./Doughnut";
 function Token() {
     console.log(reactDonutChartBackgroundColor)
   return (
-    <section className="container bg-[#0b0c22] py-16">
-      <div className=" flex justify-center px-[10%] py-4 text-white">
+    <section className="container bg-[#0b0c22] py-16 sm:p-5">
+      <div className=" flex flex-col md:flex-row justify-center px-[10%] py-4 text-white">
         {/* left */}
         <div>
           <h1 className="text-4xl">
