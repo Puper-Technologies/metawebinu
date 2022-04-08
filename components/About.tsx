@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const About = ()=>{
     return <section className="bg-white ">
-        <div className="grid grid-cols-2 sm:p-5 md:p-6  lg:p-[10%] ">
+        <div className="flex flex-col px-6 md:px-[5%] md:grid md:grid-cols-2 sm:p-5  lg:p-[10%] ">
             {/* left */}
             <div className='flex flex-col justify-center items-start space-y-4'>
                 <p>The world’s only enterprise blockchain solution for global payments</p>

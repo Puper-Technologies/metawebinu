@@ -16,7 +16,6 @@ function Token() {
           {/* card */}
           <div className="block p-6 rounded-lg shadow-lg bg-gray-800 shadown-md max-w-md mt-5 space-y-4">
             <h5 className=" text-white text-xl leading-tight font-medium mb-2">
-              
             </h5>
             {/* Timer section */}
             <div className="flex w-full justify-between">

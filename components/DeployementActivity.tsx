@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Deployement = (): JSX.Element => {
   return (
-    <div className="container  px-12 w-full mb-20 mt-20">
+    <div className="px-12 w-full mb-20 mt-20">
       <div className="text-center text-gray-800 mb-8 space-x-2">
         <h2 className="text-4xl">Development Activity</h2>
         <br />
@@ -16,8 +16,8 @@ const Deployement = (): JSX.Element => {
         dolor, efficitur eget pharetra ac, <br /> cursus sed sapien. Cras
         posuere ligula ut blandit varius.
       </div>
-      <div className="flex flex-wrap justify-evenly items-center px-6">
-        <div>
+      <div className="flex flex-col space-y-4 md:flex-row justify-evenly items-center px-6">
+        <div  className="flex flex-col justify-center items-center">
           <FontAwesomeIcon icon={faRotate} style={{ fontSize: 60 }} />
           <div className="text-center">
             <h2 className="font-medium text-4x1 mt-2 text-xl">4 hrs Ago</h2>
@@ -25,7 +25,7 @@ const Deployement = (): JSX.Element => {
           </div>
         </div>
 
-        <div>
+        <div className="flex flex-col justify-center items-center">
           <FontAwesomeIcon icon={faBuilding} style={{ fontSize: 60 }} />
 
           <div className="text-center">
@@ -34,19 +34,19 @@ const Deployement = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="items-center">
+        <div className="flex flex-col justify-center items-center">
           <FontAwesomeIcon
             icon={faHandHoldingDollar}
             style={{ fontSize: 60 }}
           />
 
-          <div className="text-center">
+          <div  className="flex flex-col justify-center items-center">
             <h2 className="font-medium text-4x1 mt-2 text-xl">45057+</h2>
             <h4 className="text-gray text-sm">Contributions </h4>
           </div>
         </div>
 
-        <div>
+        <div  className="flex flex-col justify-center items-center">
           <FontAwesomeIcon icon={faPeopleGroup} style={{ fontSize: 60 }} />
 
           <div className="text-center self-center">
@@ -56,7 +56,7 @@ const Deployement = (): JSX.Element => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center space-x-4 mt-10">
+      <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 items-center justify-center space-x-4 mt-10">
         <button
           type="button"
           className="inline-block px-12 py-3 bg-gray-800 text-white font-medium text-m leading-tight uppercase rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
