@@ -10,7 +10,7 @@ export default function Team() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh dolor, efficitur eget pharetra ac, cursus sed sapien. Cras posuere ligula ut blandit varius.
                     </p>
                 {/* images */}
-                    <div className="flex flex-row space-x-4">
+                    <div className="flex flex-col md:flex-row space-x-4">
                         <div className='relative h-40 w-40 rounded-full'>
                             <Image 
                                 src="https://demos.webicode.com/html/ico-chain/html/images/team-img-4.jpg"

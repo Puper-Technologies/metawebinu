@@ -9,7 +9,7 @@ const OurMainRoad = (): JSX.Element => {
         ligula ut blandit varius.
       </div>
 
-      <div className="grid grid-cols-4 gap-4 divide-y-[2px]">
+      <div className="grid grid-cols-1 md:gid-cols-2 lg:grid-cols-4 gap-4 divide-y-[2px]">
         <div className="mb-10 font-thin">
           <span className="text-xs font-semibold inline-block py-1 px-4 rounded text-white bg-gray-800 uppercase last:mr-0 mr-1">
             January 2018
