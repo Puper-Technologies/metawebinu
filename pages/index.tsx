@@ -14,7 +14,7 @@ const Home = ()=>{
             <Header/>
             <Banner/>
             <main className="">
-                {/* <About/> */}
+                <About/>
                 <Deployement />
                 <OurMainRoad />
                 <Token/>
