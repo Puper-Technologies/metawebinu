@@ -6,7 +6,7 @@ export default function Team() {
   return (
     <section id='team' className="">
                 <div className=" flex flex-col items-center px-[10%] text-white space-y-8 py-[5%]">
-                    <h1 className=" text-black text-4xl font-semibold">Our Senior Team Leads</h1>    
+                    <h1 className=" text-black text-4xl font-semibold">Meta Web Team</h1>    
                     <p className="text-sm text-gray-700 ">
                         {/* banner body */}
                         

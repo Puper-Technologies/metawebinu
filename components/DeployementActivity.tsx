@@ -60,16 +60,24 @@ const Deployement = (): JSX.Element => {
       </div>
 
       <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 items-center justify-center space-x-4 mt-10">
-        {/* <button
-          type="button"
-          className="inline-block px-12 py-3 bg-gray-800 text-white font-medium text-m leading-tight uppercase rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+        <a
+          type="submit"
+          href="https://coinalpha.app/token/0xfc75817694083d1eaf48c238e2aa212ec4b209ea"
+          className="text-sm  flex-nowrap inline-block px-12 py-3 bg-gray-800 text-white font-medium text-m leading-tight rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
         >
-          start on github
-        </button> */}
+          Listen on Coinalpha.app
+        </a>
+        <a
+          type="submit"
+          href="https://poocoin.app/tokens/0xfc75817694083d1eaf48c238e2aa212ec4b209ea"
+          className="text-sm  flex-nowrap inline-block px-12 py-3 bg-gray-800 text-white font-medium text-m leading-tight rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+        >
+          Poocoin live chart
+        </a>
       <form method='get' action="/presale-meta.pdf">
       <button
-          type="submit"
-          className="inline-block px-12 py-3 bg-violet-500 text-white font-medium text-m leading-tight uppercase rounded shadow-md hover:bg-violet-600 hover:shadow-lg focus:bg-violet-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+          
+          className="inline-block text-sm  flex-nowrap px-12 py-3 bg-violet-500 text-white font-medium text-m leading-tight  rounded shadow-md hover:bg-violet-600 hover:shadow-lg focus:bg-violet-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
         >
           Presale details
         </button>

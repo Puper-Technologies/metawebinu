@@ -1,6 +1,17 @@
 import Doughnut from "./Doughnut";
+import {useState} from 'react';
 
 function Token() {
+  const [ day, setDay ]  = useState();
+  const  [ hour, setHour]  = useState();
+  const  [ min, setMin ]  = useState();
+  const  [ sec, setSec ]  = useState();
+
+
+  setInterval(()=>{
+    
+  }, )
+
   return (
     <section className=" bg-[#0b0c22] w-full py-16 sm:p-5" id='token'>
       <div className=" flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-16 justify-center px-[10%] py-4 text-white">
@@ -40,20 +51,18 @@ function Token() {
             </div>
 
             <div className="flex justify-center space-x-4">
-                <button
+                <a
                 type="button"
+                href="https://twitter.com/Metawebinu"
                 className=" inline-block px-8 py-2.5 bg-sky-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 active:scale-95 ease-in-out"
                 >
                 Join Us
-                </button>
+                </a>
 
-                <button className=" inline-block px-8 py-2.5 bg-violet-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 active:scale-95 ease-in-out">
+                <a  href="https://dappbuilder.org/bsc/tokensaletimeref2/tokensale.html?id=0xF12f73ecDb25aE112ff75683e763243718920bBc&net=56" className=" inline-block px-8 py-2.5 bg-violet-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 active:scale-95 ease-in-out">
                     Buy Now
-                </button>
+                </a>
             </div>
-
-
-            
           </div>
 
                               {/* right */}

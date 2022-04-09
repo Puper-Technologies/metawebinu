@@ -1,8 +1,8 @@
 const OurMainRoad = (): JSX.Element => {
   return (
-    <div className="px-12 bg-gray-100 py-8 w-full" id='mainroad'>
+    <div className="px-12 bg-gray-100 py-8 w-full space-y-4" id='mainroad'>
       <div className="text-left text-gray-800 ">
-        <h2 className="text-4xl font-bold">Our Main Road Map</h2>
+        <h2 className="text-4xl font-bold">Meta Web Road Map</h2>
 
       </div>
 

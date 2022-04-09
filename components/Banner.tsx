@@ -115,10 +115,10 @@ export default function Banner (): JSX.Element{
                     
                 {/* buttons */}
                     <div className="flex flex-col space-y-4 space-x-0  md:space-y-0 md:flex-row md:space-x-4 justify-center items-center">
-                        <button className="py-1 md:py-4 px-4 sm:px-6  md:px-8 text-sm md:text-base flex-nowrap  bg-sky-700 shadow-sm rounded-md  active:scale-95"> Buy Now in Presale </button>
+                        <a type='submit' href="https://dappbuilder.org/bsc/tokensaletimeref2/tokensale.html?id=0xF12f73ecDb25aE112ff75683e763243718920bBc&net=56" className="py-1 md:py-4 px-4 sm:px-6  md:px-8 text-sm md:text-base flex-nowrap  bg-sky-700 shadow-sm rounded-md  active:scale-95"> Buy Now in Presale </a>
                         
                         <form method="get" action="/whitepaper.pdf">
-                            <button className="py-1 sm:pd-2 md:py-4 px-4 sm:px-6  md:px-8 text-sm md:text-base shadow-sm rounded-md  bg-violet-700 active:scale-95">VIEW WHITE PAPER</button> 
+                            <button className="py-1 sm:pd-2 md:py-4 px-4 sm:px-6  md:px-8 text-sm md:text-base shadow-sm rounded-md  bg-violet-700 active:scale-95">View White Paper</button> 
                         </form>
                         
                     </div>

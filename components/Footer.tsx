@@ -30,7 +30,7 @@ const Footer = () =>{
       <div className="flex-col border-gray-500 border-t border-b-0 border-x-0 flex md:flex-row text-[#999] text-sm items-center w-full py-4 px-2">
        
         <div className=" col-md-6 w-[50%] flex justify-center items-center py-2 px-2">
-          <p className="">Copyright © 2022 | MetaWebInu. |  All Rights Reserved. | MetaWebInu.com| Gmail: help@metawebinu.com</p>
+          <p className="">Copyright © 2022 | MetaWebInu. |  All Rights Reserved. | MetaWebInu.com | Gmail: help@metawebinu.com</p>
         </div>
 
           <div className="flex-col sm:flex-row space-y-2 sm:space-y-0 text-right  w-[50%] flex justify-center items-center space-x-2 py-2 px-2"> 

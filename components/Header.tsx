@@ -5,8 +5,8 @@ import Navigation from "./Navigation";
 const Header = (): JSX.Element =>{
 
     const navLink = [{label: 'HOME', href:'home'}, {label: 'ABOUT', href:'about'}, { label: 'TOKEN',href:'token' },
-    {label:'ROADMAP', href:'mainroad'},
     {label:'OUR ACTIVITY', href:'activity'},
+    {label:'ROADMAP', href:'mainroad'},
     { label: 'TEAM',href:'team'},
 {label:'CONTACT', href:'contact'} ]
 

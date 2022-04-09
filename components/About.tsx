@@ -8,7 +8,7 @@ const About = ()=>{
             <div className='flex flex-col justify-center items-start space-y-4'>
                 {/* <p>The world’s only enterprise blockchain solution for global payments</p> */}
                 <h2 className='text-3xl font-md text-gray-700'>Meta Web Inu will be listing on Hotbit, Bitmart, Latoken, LBank, Bitbns, Gate.io & many more big exchanges</h2>
-                <p>Welcome to Meta Web Inu (META WEB), a community-driven, equitably
+                <p className="">Welcome to Meta Web Inu (META WEB), a community-driven, equitably
 launched, decentralized (metaverse, NFT & meme coin) on Binance Smart
 Chain where we can create/buy or sold memes NFT. These memes
 character can be auctioned & seen in metaverse world when we dives
