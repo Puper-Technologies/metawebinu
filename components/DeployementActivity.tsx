@@ -3,8 +3,13 @@ import {
   faRotate,
   faHandHoldingDollar,
   faPeopleGroup,
+
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import TelegramIcon from '@mui/icons-material/Telegram';
+import InstagramIcon from '@mui/icons-material/Instagram';
+// import Instagram from "@mui/icons-material/Instagram";
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 const Deployement = (): JSX.Element => {
   return (
@@ -12,64 +17,65 @@ const Deployement = (): JSX.Element => {
       <div className="text-center text-gray-800 mb-8 space-x-2">
         <h2 className="text-4xl">Development Activity</h2>
         <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh
-        dolor, efficitur eget pharetra ac, <br /> cursus sed sapien. Cras
-        posuere ligula ut blandit varius.
+
       </div>
-      <div className="flex flex-col space-y-4 md:flex-row justify-evenly items-center px-6">
-        <div  className="flex flex-col justify-center items-center">
-          <FontAwesomeIcon icon={faRotate} style={{ fontSize: 60 }} />
+      <div className="flex flex-col space-y-4 md:flex-row justify-evenly items-center px-6" >
+        <a  className="flex flex-col justify-center items-center "  href="https://t.me/metawebinuofficial">
+          {/* <FontAwesomeIcon icon={faRotate} style={{ fontSize: 60 }} />
+           */}
+           <TelegramIcon className="text-blue-800 text-8xl"/>
           <div className="text-center">
-            <h2 className="font-medium text-4x1 mt-2 text-xl">4 hrs Ago</h2>
-            <h4 className="text-gray text-sm">Last Update</h4>
+            <h2 className="font-medium text-4x1 mt-2 text-xl">Telegram Group</h2>
+            <h4 className="text-gray text-sm">8k+ group members</h4>
           </div>
-        </div>
+        </a>
 
-        <div className="flex flex-col justify-center items-center">
-          <FontAwesomeIcon icon={faBuilding} style={{ fontSize: 60 }} />
-
+        <a className="flex flex-col justify-center space-y-2 items-center" href="https://www.instagram.com/metawebinu/">
+          {/* <FontAwesomeIcon icon={faBuilding} style={{ fontSize: 60 }} />
+           */}
+           <InstagramIcon  className=" text-4xl instagram rounded-xl text-white"/>
           <div className="text-center">
-            <h2 className="font-medium text-4x1 mt-2 text-xl">10 Days Ago</h2>
-            <h4 className="text-gray text-sm">Last Block Found </h4>
+            <h2 className="font-medium text-4x1 mt-2 text-2xl">Instagram</h2>
+            <h4 className="text-gray text-sm text-semibold">10k+ followers </h4>
           </div>
-        </div>
+        </a>
 
-        <div className="flex flex-col justify-center items-center">
-          <FontAwesomeIcon
-            icon={faHandHoldingDollar}
-            style={{ fontSize: 60 }}
-          />
-
+        <a className="flex flex-col justify-center items-center" href="https://twitter.com/Metawebinu">
+          <TwitterIcon className="text-[#00acee] text-8xl" />
           <div  className="flex flex-col justify-center items-center">
-            <h2 className="font-medium text-4x1 mt-2 text-xl">45057+</h2>
-            <h4 className="text-gray text-sm">Contributions </h4>
+            <h2 className="font-medium text-4x1 mt-2 text-xl">Twitter</h2>
+            <h4 className="text-gray text-sm"> 800+ followers</h4>
           </div>
-        </div>
+        </a>
 
-        <div  className="flex flex-col justify-center items-center">
-          <FontAwesomeIcon icon={faPeopleGroup} style={{ fontSize: 60 }} />
-
-          <div className="text-center self-center">
-            <h2 className="font-medium text-4x1 mt-2 text-xl">80</h2>
-            <h4 className="text-gray text-sm">Team Members</h4>
+        <a  className="flex flex-col justify-center items-center" href="https://t.me/MetaWebInuairdrop_bot">
+          {/* <FontAwesomeIcon icon={faRotate} style={{ fontSize: 60 }} />
+           */}
+           <TelegramIcon className="text-blue-700 text-8xl"/>
+          <div className="text-center">
+            <h2 className="font-medium text-4x1 mt-2 text-xl">Join Airdrop</h2>
+            {/* <h4 className="text-gray text-sm">Last Update</h4> */}
           </div>
-        </div>
+        </a>
       </div>
 
       <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 items-center justify-center space-x-4 mt-10">
-        <button
+        {/* <button
           type="button"
           className="inline-block px-12 py-3 bg-gray-800 text-white font-medium text-m leading-tight uppercase rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
         >
           start on github
-        </button>
-
-        <button
-          type="button"
+        </button> */}
+      <form method='get' action="/presale-meta.pdf">
+      <button
+          type="submit"
           className="inline-block px-12 py-3 bg-violet-500 text-white font-medium text-m leading-tight uppercase rounded shadow-md hover:bg-violet-600 hover:shadow-lg focus:bg-violet-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
         >
-          white paper
+          Presale details
         </button>
+      </form>
+
+
       </div>
     </div>
   );

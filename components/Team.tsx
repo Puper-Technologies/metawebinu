@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import data from '../public/data.json';
+
 
 export default function Team() {
   return (
@@ -11,7 +13,24 @@ export default function Team() {
                     </p>
                 {/* images */}
                     <div className="flex flex-col items-center space-y-8 md:space-y-0 md:flex-row md:space-x-4">
-                        <div className='relative h-40 w-40 rounded-full -z-10'>
+                        
+                        {data.team.map((member)=>(
+                            <div key={member.src} className="flex flex-col items-center space-y-1">
+                                <div key={member.src} className='relative  h-40 w-40  -z-10'>
+                                    <Image key={member.src}
+                                        src={member.src}
+                                        objectFit='cover'
+                                        layout='fill'
+                                        className='block hover:scale-105 rounded-full'
+                                    />
+                            
+                            </div>
+                            <h1 className='py-1 text-gray-900 text-base font-semibold'>{member.name}</h1>
+                            <h1 className='py-1 text-gray-900 text-base font-light'>{member.role}</h1>
+                        </div>
+))}
+                        
+                        {/* <div className='relative h-40 w-40 rounded-full -z-10'>
                             <Image 
                                 src="/Edward.jpg"
                                 objectFit='cover'
@@ -55,7 +74,7 @@ export default function Team() {
                                 className='rounded-full '
                             />
                             <h1>Name</h1>
-                        </div>
+                        </div> */}
                     </div>
             </div>
 

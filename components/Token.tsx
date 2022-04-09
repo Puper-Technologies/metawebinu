@@ -3,7 +3,7 @@ import Doughnut from "./Doughnut";
 function Token() {
   return (
     <section className=" bg-[#0b0c22] w-full py-16 sm:p-5" id='token'>
-      <div className=" flex flex-col space-y-8 md:space-y-0 md:flex-row justify-center px-[10%] py-4 text-white">
+      <div className=" flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-16 justify-center px-[10%] py-4 text-white">
         {/* left */}
         <div>
           <h1 className="text-4xl">
@@ -20,22 +20,22 @@ function Token() {
                 <div>
                     {/* days */}
                     <h1 className="text-3xl font-bold">00</h1>
-                    <h3 className="text-xl font-semibold">Days</h3>
+                    <h3 className="text-lg font-semibold">Days</h3>
                 </div>
                 <div>
                     {/* days */}
                     <h1 className="text-3xl font-bold">00</h1>
-                    <h3 className="text-xl font-semibold">Days</h3>
+                    <h3 className="text-lg font-semibold">Hours</h3>
                 </div>
                 <div>
                     {/* days */}
                     <h1 className="text-3xl font-bold">00</h1>
-                    <h3 className="text-xl font-semibold">Days</h3>
+                    <h3 className="text-lg font-semibold">Mins</h3>
                 </div>
                 <div>
                     {/* days */}
                     <h1 className="text-3xl font-bold">00</h1>
-                    <h3 className="text-xl font-semibold">Days</h3>
+                    <h3 className="text-lg font-semibold">Secs</h3>
                 </div>
             </div>
 

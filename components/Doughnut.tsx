@@ -1,17 +1,12 @@
 import React from 'react';
 import {Doughnut} from 'react-chartjs-2';
+import 'chart.js/auto';
 import {Chart, ArcElement} from 'chart.js'
-Chart.register(ArcElement);
 
-// 50% token Burn
-// 20% liquidity
-// 15% token for sale
-// 5% private & presale
-// 5% team and founder
-// 2% 
-// 2% charity
-// 1% airdrop
+
+
 const data = {
+    cutout:30,
     labels: [
         'token Burn',
         'liquidity',
@@ -27,29 +22,46 @@ datasets: [{
   
 
   backgroundColor: [
-  '#00e600',
-  '#ffff4d',
-  '#008000'
+  '#2E73E7',
+  '#D32CE1',
+  '#43E122',
+  '#EDF330',
+  '#070727',
+   '#726DA3',
+   '#623A63',
+   '#BEEDD1'
   ],
   hoverBackgroundColor: [
-  '#00b300',
-  '#ffff00',
-  '#FFCE56'
+  '#1A6BF3',
+  '#D415E4',
+  '#38EB13',
+  '#EDF41D',
+  '2D2D45',
+  '#4E4696',
+  '#502A51',
+  '#A1E0BB'
+
   ]
 }],
 options: {
     responsive: true,
     legend: {
         position: 'top',
+        display:true,
+        labels: {
+            fontColor: 'white',
+        }
     },
+
     title: {
         display: true,
-        text: 'Chart.js Doughnut Chart'
+        text: 'Token Allocation'
     },
     animation: {
         animateScale: true,
         animateRotate: true
-    }
+    },
+   
 },
 scales: {
     xAxes: [{
@@ -58,7 +70,7 @@ scales: {
            autoSkip: false
         }
     }]
-  }
+  },
 };
 
 
@@ -68,11 +80,18 @@ export default function DoughnutComp () {
     return (
         <div className=''>
           {/* <h2>Doughnut Example</h2> */}
-          <Doughnut className='text-white'
+          <Doughnut  className=''
              data={data}
-             width={400}
-             height={400}
+             width={500}
+             height={500}
              
+            //  options={
+            //      {   cutout:120,
+            //          responsive: true,    
+                     
+            //      }
+            //     }
+        
           />
         
         

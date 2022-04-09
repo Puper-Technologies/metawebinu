@@ -32,7 +32,7 @@ export default function Banner (): JSX.Element{
                 interactivity: {
                 events: {
                     onClick: {
-                    enable: true,
+                    // enable: true,
                     mode: "push",
                     },
                     onHover: {
@@ -69,7 +69,7 @@ export default function Banner (): JSX.Element{
                     width: 1,
                 },
                 collisions: {
-                    enable: true,
+                    enable: false,
                 },
                 move: {
                     direction: "none",
@@ -106,10 +106,21 @@ export default function Banner (): JSX.Element{
                         {/* banner body */}
                         Our aim is to make the record by growing token price to 10000 X in 2022
                     </p>
+                    <div className="flex flex-col md:flex-row space-y-1 md:space-y-0 md:space-x-2">
+                        <p>
+                            Contact Address : 
+                        </p>
+                        <a className="text-sm md:text-base font-semibold " href="https://bscscan.com/token/0xfc75817694083d1eaf48c238e2aa212ec4b209ea">0xfc75817694083d1eaf48c238e2aa212ec4b209ea</a>
+                    </div>
+                    
                 {/* buttons */}
-                    <div className="flex flex-row space-x-4">
-                        <button className="py-1 md:py-4 px-4 sm:px-6  md:px-8 text-sm md:text-base flex-nowrap  bg-sky-700 shadow-sm rounded-md  active:scale-95"> Join Us </button>
-                        <button className="py-1 sm:pd-2 md:py-4 px-4 sm:px-6  md:px-8 text-sm md:text-base shadow-sm rounded-md  bg-violet-700 active:scale-95">VIEW WHITE PAPER</button> 
+                    <div className="flex flex-col space-y-4 space-x-0  md:space-y-0 md:flex-row md:space-x-4 justify-center items-center">
+                        <button className="py-1 md:py-4 px-4 sm:px-6  md:px-8 text-sm md:text-base flex-nowrap  bg-sky-700 shadow-sm rounded-md  active:scale-95"> Buy Now in Presale </button>
+                        
+                        <form method="get" action="/whitepaper.pdf">
+                            <button className="py-1 sm:pd-2 md:py-4 px-4 sm:px-6  md:px-8 text-sm md:text-base shadow-sm rounded-md  bg-violet-700 active:scale-95">VIEW WHITE PAPER</button> 
+                        </form>
+                        
                     </div>
             </div>
            
