@@ -24,30 +24,31 @@ function Token() {
           
           {/* card */}
           <div className="block p-6 rounded-lg shadow-lg bg-gray-800 shadown-md max-w-md mt-5 space-y-4">
-            <h5 className=" text-white text-xl leading-tight font-medium mb-2">
+            <h5 className=" text-white text-lg leading-tight font-medium mb-2">
+              Presale is Live from 10th April to 30th April 2022
             </h5>
             {/* Timer section */}
             <div className="flex w-full justify-between">
-                <div>
-                    {/* days */}
+                {/* <div>
+                   
                     <h1 className="text-3xl font-bold">00</h1>
                     <h3 className="text-lg font-semibold">Days</h3>
                 </div>
                 <div>
-                    {/* days */}
+                   
                     <h1 className="text-3xl font-bold">00</h1>
                     <h3 className="text-lg font-semibold">Hours</h3>
                 </div>
                 <div>
-                    {/* days */}
+                    
                     <h1 className="text-3xl font-bold">00</h1>
                     <h3 className="text-lg font-semibold">Mins</h3>
                 </div>
                 <div>
-                    {/* days */}
+                   
                     <h1 className="text-3xl font-bold">00</h1>
                     <h3 className="text-lg font-semibold">Secs</h3>
-                </div>
+                </div> */}
             </div>
 
             <div className="flex justify-center space-x-4">
